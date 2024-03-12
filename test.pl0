@@ -1,0 +1,17 @@
+const a=10;
+const d=20;
+var b;
+var c;
+procedure p;
+begin
+  c:=a+b+d
+end;
+begin
+  read(b);
+  while b#0 do
+    begin
+      call  p;
+      write(2*c);
+      read(b)
+     end
+end .
